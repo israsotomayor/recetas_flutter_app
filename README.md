@@ -1,4 +1,4 @@
-# medicamentos
+# recetas
 
 A new Flutter project.
 
