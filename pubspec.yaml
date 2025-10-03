@@ -1,0 +1,26 @@
+name: recetas_app
+description: App de recetas con GetX y SQLite
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  sqflite: ^2.2.8+4
+  path_provider: ^2.0.15
+  intl: ^0.20.2
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  sqflite_common_ffi: ^2.3.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
